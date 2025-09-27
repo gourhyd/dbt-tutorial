@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: factinternetsales #  Must match the filename of a model -- including case sensitivity.
+    config:
+      materialized: table
