@@ -1,0 +1,5 @@
+{
+    "dbt.dbtIntegration": "core",
+    "dbt.lineage.showNonSelectEdges": true,
+    "dbt.perspectiveTheme": "Vintage"
+}
