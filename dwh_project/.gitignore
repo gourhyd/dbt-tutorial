@@ -2,4 +2,8 @@
 target/
 dbt_packages/
 logs/
-"logs/dbt.log" 
+dbt_internal_packages/
+feature/my_feature
+# Ignore local dbt packages
+local_packages/
+

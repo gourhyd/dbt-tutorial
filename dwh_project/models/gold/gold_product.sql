@@ -1,0 +1,1 @@
+select * from netfilxdb.gangadwh.dim_product

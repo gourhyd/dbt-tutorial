@@ -1,10 +1,13 @@
 version: 2
 
 sources:
-  - name: shriyadwh
-    database: netfilxdb  
-    schema: shriyawarehouse  
+  - name: netfilxdb
+    database: '{{target.database}}' 
+    schema: netfilxschema  
     tables:
-      - name: factinternetsales
-      - name: dimemployee
-      - name: dimdate
+      - name: dim_customer
+      - name: dim_date
+      - name: dim_store
+      - name: fact_sales
+      - name: fact_returns
+      - name: dim_product

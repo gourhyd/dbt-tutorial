@@ -63,8 +63,11 @@
 [0m13:16:18.273497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAFC3A3E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAFC0FB0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAFC0468B0>]}
 [0m13:16:18.275454 [debug] [MainThread]: Flushing usage events
 [0m13:16:20.647827 [debug] [MainThread]: An error was encountered while trying to flush usage events
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> feature/my_feature
 [0m13:25:37.093279 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206BA9D8830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206B865DBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206BBA17D90>]}
 
 
@@ -589,6 +592,7 @@ Runtime Error
   
 [0m17:54:29.488647 [debug] [MainThread]: Command `dbt build` failed at 17:54:29.488549 after 0.15 seconds
 [0m17:54:29.488914 [debug] [MainThread]: Flushing usage events
+<<<<<<< HEAD
 [0m10:19:24.421816 [debug] [MainThread]: Got an exception trying to initialize tracking
 
 
@@ -616,3 +620,5 @@ Runtime Error
 [0m20:40:20.091565 [debug] [MainThread]: Command `dbt deps` failed at 20:40:20.091471 after 0.16 seconds
 [0m20:40:20.091819 [debug] [MainThread]: Flushing usage events
 >>>>>>> Stashed changes
+=======
+>>>>>>> feature/my_feature
