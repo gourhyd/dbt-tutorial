@@ -1,0 +1,34 @@
+models:
+  - name: bronze_factsales
+    columns:
+      - name: sales_id
+        data_type: number
+        tests:
+          - unique
+          - not_null
+      - name: date_sk
+        data_type: number
+      - name: store_sk
+        data_type: number
+      - name: product_sk
+        data_type: number
+      - name: customer_sk
+        data_type: number
+      - name: promotion_sk
+        data_type: number
+      - name: quantity
+        data_type: number
+      - name: unit_price
+        data_type: number
+      - name: gross_amount
+        data_type: number
+        tests:
+          - generic_non_negative
+      - name: discount_amount
+        data_type: number
+      - name: net_amount
+        data_type: number
+        tests:
+          - generic_non_negative
+      - name: payment_method
+        data_type: varchar

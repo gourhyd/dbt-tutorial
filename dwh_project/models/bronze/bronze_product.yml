@@ -1,0 +1,22 @@
+models:
+  - name: bronze_product
+    description: The bronze_product model is a foundational table that retrieves all records from the dim_product table in the NETFILXDB.netfilxschema schema. It serves as a base layer for product-related data, providing a comprehensive view of product dimensions for further transformations and analysis.
+    columns:
+      - name: product_sk
+        tests:
+            - unique
+            - not_null
+      - name: product_code
+        data_type: varchar
+      - name: product_name
+        data_type: varchar
+      - name: department
+        data_type: varchar
+      - name: category
+        data_type: varchar
+      - name: supplier_sk
+        data_type: number
+      - name: list_price
+        data_type: number
+      - name: uom
+        data_type: varchar

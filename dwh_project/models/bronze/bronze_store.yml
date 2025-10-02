@@ -1,0 +1,31 @@
+models:
+  - name: bronze_store
+    description: This is the store information for product
+    columns:
+      - name: store_sk
+        description: A unique surrogate key representing each store in the dataset.
+        data_type: number
+      - name: store_code
+        description: A unique code assigned to each store for identification purposes.
+        data_type: varchar
+      - name: store_name
+        description: The name of the store as recorded in the dataset.
+        data_type: varchar
+      - name: city
+        description: The name of the city where the store is located.
+        data_type: varchar
+      - name: state_province
+        description: The state or province where the store is situated.
+        data_type: varchar
+      - name: region
+        description: The broader geographical region encompassing the store's location.
+        data_type: varchar
+      - name: country
+        description: The country where the store is located.
+        data_type: varchar
+      - name: open_date
+        description: The date when the store was opened.
+        data_type: date
+      - name: sq_ft
+        description: The total square footage of the store.
+        data_type: number

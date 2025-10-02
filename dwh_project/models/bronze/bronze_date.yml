@@ -1,0 +1,31 @@
+models:
+  - name: bronze_date
+    columns:
+      - name: date_sk
+        data_type: number
+      - name: date
+        data_type: date
+      - name: day
+        data_type: number
+      - name: month
+        data_type: number
+      - name: month_name
+        data_type: varchar
+      - name: quarter
+        data_type: number
+      - name: year
+        data_type: number
+      - name: day_of_week
+        data_type: number
+      - name: day_name
+        data_type: varchar
+      - name: is_weekend
+        data_type: boolean
+      - name: is_month_end
+        data_type: boolean
+      - name: is_month_start
+        data_type: boolean
+      - name: is_quarter_end
+        data_type: boolean
+      - name: is_quarter_start
+        data_type: boolean
