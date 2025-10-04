@@ -1,0 +1,11 @@
+version: 2
+ 
+sources:
+  - name: bronze 
+    database: |
+      {%- if  target.name == "dev" -%} NETFILXSCHEMA
+      {%- elif target.name == "prod"  -%} NETFILXSProd
+      {%- else -%} invalid_database
+      {%- endif -%}
+    schema: bronze
+    

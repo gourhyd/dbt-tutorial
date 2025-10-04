@@ -2,7 +2,8 @@ version: 2
 
 sources:
   - name: netfilxdb
-    database: '{{target.database}}' 
+    #database: '{{target.database}}' 
+    database: netfilxdb
     schema: netfilxschema  
     tables:
       - name: dim_customer
