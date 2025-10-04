@@ -1,0 +1,18 @@
+models:
+  - name: fact_sales
+    columns:
+      - name: sales_id
+        data_type: number
+        tests:
+          - unique
+          - not_null
+      - name: gross_amount
+        data_type: number
+      - name: net_amount
+        data_type: number
+      - name: payment_method
+        data_type: varchar
+      - name: product_category
+        data_type: varchar
+      - name: customer_code
+        data_type: varchar

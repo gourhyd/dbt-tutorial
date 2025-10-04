@@ -41,6 +41,10 @@ models:
     silver:
       +materialized: table
       schema: "silver"
+    gangawarehouse:
+      +materialized: table
+      schema: "gangawarehouse"
+
 seeds:
   dwh_project:
     +schema: bronze
