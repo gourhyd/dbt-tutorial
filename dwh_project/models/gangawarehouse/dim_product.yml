@@ -1,0 +1,20 @@
+models:
+  - name: dim_product
+    description: The dim_product model provides a comprehensive view of product-related data by combining information from the product dimension, sales fact table, and customer dimension. It includes details such as product attributes, sales metrics, and customer names, enabling analysis of product performance and customer interactions.
+    columns:
+      - name: product_sk
+        data_type: number
+      - name: product_code
+        data_type: varchar
+      - name: product_name
+        data_type: varchar
+      - name: category
+        data_type: varchar
+      - name: department
+        data_type: varchar
+      - name: quantity
+        data_type: number
+      - name: unit_price
+        data_type: number
+      - name: customer_name
+        data_type: varchar
