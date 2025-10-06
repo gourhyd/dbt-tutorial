@@ -1,4 +1,6 @@
 packages:
   - local: local_packages/dbt_utils
     name: dbt_utils
-sha1_hash: fc7731e0d23c927772c3774a571aa5ff23499122
+  - local: local_packages/dbt_audit_helper
+    name: audit_helper
+sha1_hash: 93788ae590dadc8c33d8892b2888ed3b789fc449

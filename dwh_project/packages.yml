@@ -1,2 +1,3 @@
 packages:
   - local: local_packages/dbt_utils
+  - local: local_packages/dbt_audit_helper
